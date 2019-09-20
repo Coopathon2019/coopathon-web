@@ -1,0 +1,35 @@
+
+
+.md-theme-default :not(input):not(textarea)::selection,
+.landing-page :not(input):not(textarea)::selection
+{
+  color: white;
+  background-color: #d17144 !important;
+}
+
+.block-text
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.emphasis
+{
+    font-weight: 600;
+    color: #d17144 !important;
+}
+a.emphasis
+{
+    font-weight: 600;
+    color: #d17144 !important;
+
+    &:hover, &:active, &:focus
+    {
+      color: #4bc45d !important;
+    }
+}
+
+.clickable
+{
+  cursor: pointer !important;
+}

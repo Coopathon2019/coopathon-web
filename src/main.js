@@ -24,7 +24,7 @@ Vue.config.productionTip = false;
 Vue.use(MaterialKit);
 
 const NavbarStore = {
-  showNavbar: false
+  showNavbar: true
 };
 
 Vue.mixin({

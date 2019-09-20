@@ -32,15 +32,15 @@
 
             <Details></Details>
 
-            <Schedule class="bg-coopathon"></Schedule>
+            <Schedule class="bg-coopathon" :style="classStyle.bgCoopathon"></Schedule>
 
             <Rules></Rules>
 
-            <Ideas class="bg-coopathon-2"></Ideas>
+            <Ideas class="bg-coopathon-2" :style="classStyle.bgCoopathon2"></Ideas>
 
             <Prizes></Prizes>
 
-            <Contact class="bg-coopathon-3"></Contact>
+            <Contact class="bg-coopathon-3" :style="classStyle.bgCoopathon3"></Contact>
 
         </div>
 
@@ -87,7 +87,21 @@
             return {
                 name: null,
                 email: null,
-                message: null
+                message: null,
+                classStyle: {
+                    bgCoopathon:
+                    {
+                        backgroundImage: 'url(' + process.env.BASE_URL + 'img/bg.jpg)',
+                    },
+                    bgCoopathon2:
+                    {
+                        backgroundImage: 'url(' + process.env.BASE_URL + 'img/bg-2.jpg)',
+                    },
+                    bgCoopathon3:
+                    {
+                        backgroundImage: 'url(' + process.env.BASE_URL + 'img/bg-3.jpg)',
+                    },
+                },
             };
         },
         computed: {

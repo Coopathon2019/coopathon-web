@@ -62,6 +62,15 @@
     &.md-success{
       @include btn-styles($brand-success);
     }
+    &.md-dark{
+      @include btn-styles($brand-dark);
+
+      &:hover, &:active
+      {
+        color: black !important;
+        background-color: #b3a95a !important;
+      }
+    }
     &.md-warning{
       @include btn-styles($brand-warning);
     }

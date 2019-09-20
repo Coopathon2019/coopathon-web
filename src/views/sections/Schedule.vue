@@ -5,12 +5,6 @@
             <div class="md-layout">
                 <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
                     <h2 class="text-center title">活動時程</h2>
-                    <!-- <h4 class="text-center description">
-                        Divide details about your product or agency work into parts.
-                        Write a few lines about each one and contact us about any
-                        further collaboration. We will responde get back to you in a
-                        couple of hours.
-                    </h4> -->
                 </div>
             </div>
 

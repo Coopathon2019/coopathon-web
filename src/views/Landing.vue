@@ -18,7 +18,8 @@
                         <!-- <md-button href="#" class="md-success md-lg block-text" target="_blank">
                             <i class="fas fa-angle-double-right"></i> 報名辦法
                         </md-button> -->
-                        <md-button href="https://www.accupass.com/event/1909170301505585368800" class="md-success md-lg block-text" target="_blank">
+                        <md-button href="https://www.accupass.com/event/1909170301505585368800" target="_blank"
+                                   class="md-rose md-lg block-text faa-horizontal animated">
                             <!-- <i class="fas fa-angle-double-right"></i> -->
                             參加說明會
                         </md-button>
@@ -31,15 +32,15 @@
 
             <Details></Details>
 
-            <Schedule class="bg-linear-purple"></Schedule>
+            <Schedule class="bg-coopathon"></Schedule>
 
             <Rules></Rules>
 
-            <Ideas class="bg-linear-green"></Ideas>
+            <Ideas class="bg-coopathon-2"></Ideas>
 
             <Prizes></Prizes>
 
-            <Contact class="bg-linear-blue"></Contact>
+            <Contact class="bg-coopathon-3"></Contact>
 
         </div>
 
@@ -67,7 +68,7 @@
         props: {
             header: {
                 type: String,
-                default: require("@/assets/img/bg7.jpg")
+                default: require("@/assets/img/bg_landing.jpg")
             },
             teamImg1: {
                 type: String,

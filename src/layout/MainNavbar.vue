@@ -334,7 +334,7 @@
     }
     .scrollactive-item.active
     {
-        color: #70d8da !important;
+        color: #54c4c6 !important;
     }
 }
 

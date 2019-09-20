@@ -18,3 +18,9 @@ export default {
   
 }
 </script>
+
+<style lang="scss">
+
+@import '~font-awesome-animation/dist/font-awesome-animation.min.css';
+
+</style>

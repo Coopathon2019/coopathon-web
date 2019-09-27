@@ -58,11 +58,14 @@
                     <br>
 
                     <h2 class="text-center title">活動聯絡</h2>
-                    <p>
+                    
+                    <div class="table-area">
+                        <div class="table-width">
 
                         <b-table stacked :items="contact_info"></b-table>
                         
-                    </p>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
@@ -116,6 +119,21 @@ export default {
 p {
     margin-bottom: 15px;
 }
+
+
+
+.table-area
+{
+    overflow-x: auto;
+    margin-bottom: 20px;
+
+    .table-width,
+    table
+    {
+        min-width: 550px;
+    }
+}
+
 
 
 </style>

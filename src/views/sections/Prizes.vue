@@ -39,7 +39,7 @@
                             <h4 class="info-title">
                                 優勝 1 組
                                 <div class="info-date">
-                                   20 萬元整
+                                   每組新台幣 20 萬元整，獎狀一紙
                                 </div>
                             </h4>
                         </div>
@@ -69,11 +69,19 @@
                             <h4 class="info-title">
                                 優選 5 組
                                 <div class="info-date">
-                                    每組 6 萬元整
+                                    每組新台幣 6 萬元整，獎狀一紙
                                 </div>
                             </h4>
                         </div>
                         <br>
+                    </div>
+                </div>
+
+                <div class="md-layout">
+                    <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
+                        <p class="description">
+                            獲獎團隊應指定代表人領取獎金，由主辦單位代扣所得稅金後，將於活動結束後一個月內，匯款至團隊代表人指定帳戶。
+                        </p>
                     </div>
                 </div>
             </div>
@@ -91,8 +99,10 @@
                             評審標準 【 初選 】
                         </div>
                     </h3>
-                    
-                    <br>
+
+                    <p class="description">
+                        初選評選委員會由主辦單位空總臺灣當代文化實驗場邀請相關領域之外部評選委員組織而成，並依據初審評選指標（見下表）進行評選作業。
+                    </p>
 
                     <div class="table-area">
                         <div class="table-width">
@@ -115,12 +125,12 @@
                                         <!-- <b-td>1</b-td> -->
                                         <b-td>現況與問題分析</b-td>
                                         <b-td>對欲解決的問題、需求或現況是否具有足夠的理解與認識</b-td>
-                                        <b-td rowspan=5 class="span-text-center">食農合作松初選委員會</b-td>
+                                        <b-td rowspan=5 class="span-text-center">2019 食農合作松初選評委會</b-td>
                                         <b-td>20 %</b-td>
                                     </b-tr>
                                     <b-tr>
                                         <!-- <b-td>2</b-td> -->
-                                        <b-td>問題解決成效</b-td>
+                                        <b-td>問題解決的方式</b-td>
                                         <b-td>提出的方案是否切中問題要害，具有解決問題的潛力？</b-td>
                                         <b-td>20 %</b-td>
                                     </b-tr>
@@ -166,8 +176,11 @@
                             評審標準 【 決賽 】
                         </div>
                     </h3>
-                    
-                    <br>
+
+                    <p class="description">
+                        決賽評選委員會由主辦單位臺灣當代文化實驗場邀請關注相關領域之學界、公部門、資訊、議題社群、藝術文化等跨領域工作者組織而成，並依據決賽評選指標（見下表），進行評選作業。
+                    </p>
+
 
                     <div class="table-area">
                         <div class="table-width">
@@ -188,34 +201,34 @@
                                 <b-tbody>
                                     <b-tr>
                                         <!-- <b-td>1</b-td> -->
-                                        <b-td>現況與問題分析</b-td>
-                                        <b-td>對欲解決的問題、需求或現況是否具有足夠的理解與認識</b-td>
-                                        <b-td rowspan=5 class="span-text-center">食農合作松初選委員會</b-td>
-                                        <b-td>20 %</b-td>
-                                    </b-tr>
-                                    <b-tr>
-                                        <!-- <b-td>2</b-td> -->
-                                        <b-td>問題解決成效</b-td>
-                                        <b-td>完成的作品是否切中問題要害，具有解決問題的潛力？</b-td>
+                                        <b-td>現況分析與問題解決成效</b-td>
+                                        <b-td>對問題現況的理解認識是否充分？完成作品是否具有解決問題的潛力？</b-td>
+                                        <b-td rowspan=5 class="span-text-center">2019食農合作松決賽評委會</b-td>
                                         <b-td>20 %</b-td>
                                     </b-tr>
                                     <b-tr>
                                         <!-- <b-td>3</b-td> -->
                                         <b-td>跨域與創新</b-td>
                                         <b-td>作品是否結合不同領域知識與專業？內容是否打破常規，開闢創新方向？</b-td>
-                                        <b-td>20 %</b-td>
+                                        <b-td>25 %</b-td>
                                     </b-tr>
                                     <b-tr>
                                         <!-- <b-td>4</b-td> -->
                                         <b-td>合作精神</b-td>
                                         <b-td>作品是否具備「共享」、「共學」與「共造」等合作精神？是否具有推動並擴大合作精神的潛力。</b-td>
-                                        <b-td>20 %</b-td>
+                                        <b-td>25 %</b-td>
                                     </b-tr>
                                     <b-tr>
                                         <!-- <b-td>5</b-td> -->
                                         <b-td>作品完整性與發展潛力</b-td>
                                         <b-td>完成之作品是否成熟？是否具備一定程度的完整性？是否具有延續並長期發展的可能性？</b-td>
                                         <b-td>20 %</b-td>
+                                    </b-tr>
+                                    <b-tr>
+                                        <!-- <b-td>5</b-td> -->
+                                        <b-td>簡報與答詢</b-td>
+                                        <b-td>團隊上台簡報成果與回應評委提問之表現。</b-td>
+                                        <b-td>10 %</b-td>
                                     </b-tr>
                                 </b-tbody>
                                 <!-- <b-tfoot>

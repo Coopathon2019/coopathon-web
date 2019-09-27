@@ -195,14 +195,11 @@
         data() {
             return {
                 extraNavClasses: "",
-                toggledClass: false,
+                toggledClass: true,
             };
         },
         computed: {
-            showDownload() {
-                const excludedRoutes = ["login", "landing", "profile"];
-                return excludedRoutes.every(r => r !== this.$route.name);
-            }
+
         },
         watch: {
         },
@@ -272,6 +269,10 @@
 
         },
         mounted() {
+            // 強迫讓 mobile 螢幕下的 navbar 正常運作
+            this.bodyClick();           // 設定點 body 關閉 navbar
+            this.toggleNavbarMobile();  // 設定 navbar toggle 按鈕
+
             document.addEventListener("scroll", this.scrollListener);
         },
         beforeDestroy() {

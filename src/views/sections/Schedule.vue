@@ -76,7 +76,8 @@
                                     <div class="content-date"><md-icon>date_range</md-icon> 2019-11-16</div>
                                     <div class="content-time">上午</div>
                                     <p class="text-center">
-                                        <md-icon>room</md-icon> TAF 空總創新基地
+                                        <md-icon>room</md-icon> 空總臺灣當代文化實驗場
+                                        <br>聯合餐廳 1 樓灰盒子空間
                                         <br>（ 台北市大安區建國南路一段 177 號 ）
                                     </p>
                                 </div>
@@ -98,7 +99,8 @@
                                     </div>
                                     <div class="content-time">下午</div>
                                     <p class="text-center">
-                                        <md-icon>room</md-icon> TAF 空總創新基地
+                                        <md-icon>room</md-icon> 空總臺灣當代文化實驗場
+                                        <br>聯合餐廳 1 樓灰盒子空間
                                         <br>（ 台北市大安區建國南路一段 177 號 ）
                                     </p>
                                 </div>

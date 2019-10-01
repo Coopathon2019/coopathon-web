@@ -26,7 +26,7 @@
                                     在氣候變遷、能源依賴、人口增長、通路規格化等挑戰下，現代農民如何利用資訊技術，幫助農民以友善環境的方式穩定生產出質量兼具的食物來餵飽全世界？
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
 
@@ -35,7 +35,7 @@
                                     人們在鄉村、在都市，用各自的方法與土地一起生活。無論都市或鄉村，有農業的地方即能創造在地生活。在創造理想的在地生活的過程中，人們會遭遇哪些困難？需要哪些協助？
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
 
@@ -44,7 +44,7 @@
                                     農業未來掌握在下一代，而教育，則是世代溝通的重要管道。農耕者如何與消費者溝通？我們又如何與孩子對話？我們需要新的媒介、新的方法、新的工具。
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
 
@@ -53,7 +53,7 @@
                                     除了生產外，農產品收穫後清洗、處理、加工、集貨、包裝、物流、大盤商、中盤商、最後才經由通路商進到消費者的生活之中，整個產業鏈正在悄悄轉變。產業的未來，由你來打造。
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
 
@@ -62,7 +62,7 @@
                                     要增加農業永續性並不需要完全捨棄現有的慣行農業機制，只要能夠一點一點改善，就能慢慢使農業往永續發展的目標前進。讓我們用新的工具幫助人們上手，推動改變。
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
 
@@ -71,7 +71,7 @@
                                     處於資訊「透明」的時代，人們應該如何理解巨量資訊？產銷間的資訊與知識落差如何弭平？市面上各種標章認證機制又該如何讓消費者認識，並進而取得信賴？或者，我們需要何種全新的溯源方式？
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
 
@@ -80,7 +80,7 @@
                                     
                                 </b-card-text>
                                 <p class="text-center">
-                                    <b-button variant="success" @click="goToPage('topic')">相關主題</b-button>
+                                    <b-button variant="success" @click="goToPage('topic')">更多討論</b-button>
                                 </p>
                             </b-card>
                         </b-card-group>
@@ -109,7 +109,7 @@ export default {
         {
             if (topic)
             {
-                window.open('https://coopathon2019.clab.org.tw/', '_blank');
+                window.open('https://www.facebook.com/groups/412776526095442/?epa=SEARCH_BOX', '_blank');
             }
         },
     }

@@ -20,7 +20,7 @@
                                     <div class="content-date"><md-icon>date_range</md-icon> 2019-09-28</div>
                                     <div class="content-time">14:00-16:30</div>
                                     <p class="text-center">
-                                        <md-button href="#" class="md-success md-lg" target="_blank">
+                                        <md-button href="#" class="md-success md-lg" target="_blank" :disabled="true">
                                             <!-- <i class="fas fa-angle-double-right block-text"></i> -->
                                             參加說明會
                                         </md-button>
@@ -37,7 +37,7 @@
                                     <div class="content-date"><md-icon>date_range</md-icon> 2019-10-01</div>
                                     <div class="content-time">10:00 開始</div>
                                     <p class="text-center">
-                                        <md-button href="#" class="md-success md-lg" target="_blank" :disabled="true">
+                                        <md-button href="#" class="md-success md-lg" target="_blank" :disabled="false">
                                             <!-- <i class="fas fa-angle-double-right block-text"></i> -->
                                             報名參加
                                         </md-button>

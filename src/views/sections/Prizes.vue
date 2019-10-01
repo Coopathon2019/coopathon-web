@@ -39,7 +39,7 @@
                             <h4 class="info-title">
                                 優勝 1 組
                                 <div class="info-date">
-                                   每組新台幣 20 萬元整，獎狀一紙
+                                   每組新台幣貳拾萬元整，獎狀一紙
                                 </div>
                             </h4>
                         </div>
@@ -69,7 +69,7 @@
                             <h4 class="info-title">
                                 優選 5 組
                                 <div class="info-date">
-                                    每組新台幣 6 萬元整，獎狀一紙
+                                    每組新台幣陸萬元整，獎狀一紙
                                 </div>
                             </h4>
                         </div>
@@ -80,7 +80,7 @@
                 <div class="md-layout">
                     <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
                         <p class="description">
-                            獲獎團隊應指定代表人領取獎金，由主辦單位代扣所得稅金後，將於活動結束後一個月內，匯款至團隊代表人指定帳戶。
+                            獲獎團隊應指定代表人領取獎金，由主辦單位代扣所得稅金後，將於活動結束後一個月內，匯款至團隊代表人指定帳戶，並申報其所得。
                         </p>
                     </div>
                 </div>

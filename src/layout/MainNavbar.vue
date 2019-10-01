@@ -52,7 +52,8 @@
                                             <md-list-item>
                                                 <a href="#section-rules" class="scrollactive-item">
                                                     <!-- <i class="material-icons">content_paste</i> -->
-                                                    <p>競賽規則</p>
+                                                    <!-- <p>競賽規則</p> -->
+                                                    <p>參賽辦法</p>
                                                 </a>
                                             </md-list-item>
                                             <md-list-item>
@@ -70,7 +71,8 @@
                                             <md-list-item>
                                                 <a href="#section-contact" class="scrollactive-item">
                                                     <!-- <i class="material-icons">content_paste</i> -->
-                                                    <p>辦理單位</p>
+                                                    <!-- <p>辦理單位</p> -->
+                                                    <p>聯絡我們</p>
                                                 </a>
                                             </md-list-item>
                                         </scrollactive>

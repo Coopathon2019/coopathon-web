@@ -21,7 +21,7 @@
                         <md-button href="https://www.accupass.com/event/1909170301505585368800" target="_blank"
                                    class="md-rose md-lg block-text faa-horizontal animated">
                             <!-- <i class="fas fa-angle-double-right"></i> -->
-                            參加說明會
+                            馬上報名
                         </md-button>
                     </div>
                 </div>

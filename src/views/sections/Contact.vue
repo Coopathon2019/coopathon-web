@@ -4,7 +4,7 @@
         <div class="container">
             <div class="md-layout">
                 <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
-                    <h2 class="text-center title">辦理單位</h2>
+                    <!-- <h2 class="text-center title">辦理單位</h2> -->
                     <!-- <p class="description">
                         Divide details about your product or agency work into parts.
                         Write a few lines about each one and contact us about any
@@ -57,7 +57,7 @@
                     
                     <br>
 
-                    <h2 class="text-center title">活動聯絡</h2>
+                    <h2 class="text-center title">聯絡我們</h2>
                     
                     <div class="table-area">
                         <div class="table-width">

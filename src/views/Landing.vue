@@ -18,7 +18,7 @@
                         <!-- <md-button href="#" class="md-success md-lg block-text" target="_blank">
                             <i class="fas fa-angle-double-right"></i> 報名辦法
                         </md-button> -->
-                        <md-button href="https://www.accupass.com/event/1909170301505585368800" target="_blank"
+                        <md-button href="https://coopathon2019.kktix.cc/events/54065dca" target="_blank"
                                    class="md-rose md-lg block-text faa-horizontal animated">
                             <!-- <i class="fas fa-angle-double-right"></i> -->
                             馬上報名

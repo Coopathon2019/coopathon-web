@@ -19,7 +19,7 @@
             <div class="md-layout">
                 <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
 
-                    <div>
+                    <!-- <div> -->
                         <b-card-group columns>
                             <b-card title="農業生產" :img-src="getImgURL('img/topic1_coa.jpg')" img-alt="Image" img-top >
                                 <b-card-text>
@@ -75,7 +75,7 @@
                                 </p>
                             </b-card>
 
-                            <b-card title="無法歸類的各種農業坑" :img-src="getImgURL('img/topic7_coa.jpg')" img-alt="Image" img-top >
+                            <b-card title="無法歸類的各種農業坑" :img-src="getImgURL('img/topic7_coa.jpg')" img-alt="Image" img-top>
                                 <b-card-text>
                                     
                                 </b-card-text>
@@ -84,7 +84,7 @@
                                 </p>
                             </b-card>
                         </b-card-group>
-                    </div>
+                    <!-- </div> -->
 
                 </div>
             </div>

@@ -18,10 +18,13 @@
                         <!-- <md-button href="#" class="md-success md-lg block-text" target="_blank">
                             <i class="fas fa-angle-double-right"></i> 報名辦法
                         </md-button> -->
-                        <md-button href="https://coopathon2019.kktix.cc/events/54065dca" target="_blank"
+                        <!-- <md-button href="https://coopathon2019.kktix.cc/events/54065dca" target="_blank"
                                    class="md-rose md-lg block-text faa-horizontal animated">
-                            <!-- <i class="fas fa-angle-double-right"></i> -->
                             馬上報名
+                        </md-button> -->
+                        <md-button :href="getImgURL('files/初選入圍名單.jpg')" target="_blank"
+                                   class="md-rose md-lg block-text faa-horizontal animated">
+                            初選名單
                         </md-button>
                     </div>
                 </div>
@@ -110,6 +113,13 @@
                     backgroundImage: `url(${this.header})`
                 };
             }
+        },
+        methods: {
+
+            getImgURL (img)
+            {
+                return process.env.BASE_URL + img
+            },
         }
     };
 </script>

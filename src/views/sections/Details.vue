@@ -66,7 +66,7 @@
                                 公布 15 隊入選名單
                             </p>
                             <p class="text-center">
-                                <md-button href="#" class="md-success md-lg" target="_blank" :disabled="true">
+                                <md-button :href="getImgURL('files/初選入圍名單.jpg')" class="md-success md-lg" target="_blank" :disabled="false">
                                     <!-- <i class="fas fa-angle-double-right block-text"></i> -->
                                     初選入圍名單
                                 </md-button>
@@ -98,6 +98,21 @@
     </div>
 
 </template>
+
+<script>
+
+
+    export default {
+    
+        methods: {
+
+            getImgURL (img)
+            {
+                return process.env.BASE_URL + img
+            },
+        }
+    }
+</script>
 
 <style lang="scss" scoped>
 

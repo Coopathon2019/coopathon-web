@@ -72,13 +72,19 @@
                             </div>
                             <div class="timeline-container left">
                                 <div class="content">
-                                    <div class="content-title">食農合作松 － 啟動論壇</div>
+                                    <div class="content-title">食農合作松 － 開幕論壇</div>
                                     <div class="content-date"><md-icon>date_range</md-icon> 2019-11-16</div>
                                     <div class="content-time">上午</div>
                                     <p class="text-center">
                                         <md-icon>room</md-icon> 空總臺灣當代文化實驗場
                                         <br>聯合餐廳 1 樓灰盒子空間
                                         <br>（ 台北市大安區建國南路一段 177 號 ）
+                                    </p>
+                                    <p class="text-center">
+                                        <md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfnhuQXL9xbFqydo345QlgsE1jJViqRKyuaGN1kAyoz5t9Y2w/viewform" target="_blank"
+                                                class="md-success md-lg block-text faa-horizontal animated">
+                                            報名參加開幕論壇
+                                        </md-button>
                                     </p>
                                 </div>
                             </div>

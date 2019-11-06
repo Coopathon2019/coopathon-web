@@ -41,11 +41,14 @@
                 <b-row align-v="center" align-h="center" class="unit-area">
                     <b-col cols=12 md=4>
                         <h3>承辦單位</h3>
-                        <h4 class="unit-title">蜂巢數據科技股份有限公司</h4>
+                        <h4 class="unit-title">蜂巢數據科技股份有限公司 / 阿龜微氣候</h4>
                     </b-col>
                     <b-col cols=12 md=4>
                         <a href="https://www.beehivedt.com/" target="_blank">
                             <b-img src="./img/logo/logo_beehive_white.png" alt="蜂巢數據科技股份有限公司"/>
+                        </a>
+                        <a href="https://www.agriweather.online/" target="_blank">
+                            <b-img src="./img/logo/logo_agriweather_white.png" alt="阿龜微氣候"/>
                         </a>
                     </b-col>
                 </b-row>
@@ -82,7 +85,7 @@ export default {
         return {
             contact_info: [
                 {
-                    '蜂巢數據科技股份有限公司': '盧安邦　02-23679327',
+                    '阿龜微氣候': '盧安邦　02-23679327',
                     '臺灣當代文化實驗場發展組': '郭書瑋　02 8773-5087 #303',
                     '2019 食農合作松 e-mail': 'coopathon2019@gmail.com',
                 }

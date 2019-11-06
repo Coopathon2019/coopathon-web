@@ -22,9 +22,13 @@
                                    class="md-rose md-lg block-text faa-horizontal animated">
                             馬上報名
                         </md-button> -->
-                        <md-button :href="getImgURL('files/初選入圍名單.jpg')" target="_blank"
+                        <!-- <md-button :href="getImgURL('files/初選入圍名單.jpg')" target="_blank"
                                    class="md-rose md-lg block-text faa-horizontal animated">
                             初選名單
+                        </md-button> -->
+                        <md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfnhuQXL9xbFqydo345QlgsE1jJViqRKyuaGN1kAyoz5t9Y2w/viewform" target="_blank"
+                                   class="md-rose md-lg block-text faa-horizontal animated">
+                            報名參加開幕論壇
                         </md-button>
                     </div>
                 </div>

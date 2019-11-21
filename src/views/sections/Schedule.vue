@@ -82,7 +82,7 @@
                                     </p>
                                     <p class="text-center">
                                         <md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfnhuQXL9xbFqydo345QlgsE1jJViqRKyuaGN1kAyoz5t9Y2w/viewform" target="_blank"
-                                                class="md-success md-lg block-text faa-horizontal animated">
+                                                class="md-success md-lg block-text" :disabled="true">
                                             報名參加開幕論壇
                                         </md-button>
                                     </p>
@@ -109,6 +109,12 @@
                                         <br>聯合餐廳 1 樓灰盒子空間
                                         <br>（ 台北市大安區建國南路一段 177 號 ）
                                     </p>
+                                    <p class="text-center">
+                                        <md-button @click="goTO_ID( 'section-result' )" target="_blank"
+                                                class="md-success md-lg block-text faa-horizontal animated">
+                                            活動成果
+                                        </md-button>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -129,6 +135,15 @@
     export default {
     
         methods: {
+
+            goTO_ID (divID) {
+                let target = document.getElementById( divID )
+
+                target.scrollIntoView({
+                    block: "start",
+                    behavior: "smooth"
+                });
+            },
 
             getImgURL (img)
             {

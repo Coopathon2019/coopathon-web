@@ -26,9 +26,13 @@
                                    class="md-rose md-lg block-text faa-horizontal animated">
                             初選名單
                         </md-button> -->
-                        <md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfnhuQXL9xbFqydo345QlgsE1jJViqRKyuaGN1kAyoz5t9Y2w/viewform" target="_blank"
+                        <!-- <md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfnhuQXL9xbFqydo345QlgsE1jJViqRKyuaGN1kAyoz5t9Y2w/viewform" target="_blank"
                                    class="md-rose md-lg block-text faa-horizontal animated">
                             報名參加開幕論壇
+                        </md-button> -->
+                        <md-button @click="goTO_ID( 'section-result' )"
+                                   class="md-rose md-lg block-text faa-horizontal animated">
+                            活動成果
                         </md-button>
                     </div>
                 </div>
@@ -47,6 +51,10 @@
 
             <Prizes></Prizes>
 
+            <Book class="bg-coopathon-2" :style="classStyle.bgCoopathon2"></Book>
+
+            <Result></Result>
+
             <Contact class="bg-coopathon-3" :style="classStyle.bgCoopathon3"></Contact>
 
         </div>
@@ -60,6 +68,8 @@
     import Rules from '@/views/sections/Rules'
     import Ideas from '@/views/sections/Ideas'
     import Prizes from '@/views/sections/Prizes'
+    import Book from '@/views/sections/Book'
+    import Result from '@/views/sections/Result'
     import Contact from '@/views/sections/Contact'
 
     export default {
@@ -70,6 +80,8 @@
             Rules,
             Ideas,
             Prizes,
+            Book,
+            Result,
             Contact,
         },
         props: {
@@ -119,6 +131,15 @@
             }
         },
         methods: {
+
+            goTO_ID (divID) {
+                let target = document.getElementById( divID )
+
+                target.scrollIntoView({
+                    block: "start",
+                    behavior: "smooth"
+                });
+            },
 
             getImgURL (img)
             {

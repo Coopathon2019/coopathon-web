@@ -6,7 +6,19 @@
                 <div class="md-layout-item md-size-80 md-xsmall-size-100 mx-auto">
                     <h2 class="text-center title">活動成果</h2>
 
-                    
+                    <div>
+                        <b-button v-b-toggle.collapse-1 variant="success" size=lg>
+                            <md-icon class="md-size-2x icon-golden faa-tada animated block-text">emoji_events</md-icon>
+                            2019 食農合作松 得獎名單
+                        </b-button>
+                        <b-collapse id="collapse-1" class="mt-2">
+                            <b-card>
+                                <b-card-img src="./files/得獎名單.jpg" alt="得獎名單"></b-card-img>
+                            </b-card>
+                        </b-collapse>
+                    </div>
+
+                    <br>
 
                     <b-card class="github-card">
                         <h3>2019 食農合作松決選參加作品</h3>
@@ -14,7 +26,7 @@
                             參加團隊的成果皆開源上傳在 Github。
                             <md-button href="https://github.com/Coopathon2019" target="_blank"
                                     class="md-success md-lg block-text" style="float: right;">
-                                2019 食農合作松 Github
+                                官方 Github
                             </md-button>
                         </b-card-text>
                     </b-card>
